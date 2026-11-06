@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | The Hit Factory, Lexington OH</title>
+<meta name="description" content="The Hit Factory is a family-founded baseball and softball training facility in Lexington, Ohio, started by Nathan and Codi Fisher.">
+<link rel="icon" href="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:ital,wght@1,800&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="bar-inner">
+    <a class="brand" href="index.html" aria-label="The Hit Factory home">
+      <img src="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp" alt="">
+      <span>The Hit Factory</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="rentals.html">Cage rentals</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="elite.html">Hit Factory Elite</a>
+      <a href="parties.html">Parties</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://book.runswiftapp.com/facilities/the-hit-factory">Book now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>About The Hit Factory</h1>
+      <p>A family-founded program built on a love for baseball, softball and our community.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <img src="https://s3.amazonaws.com/jerseywatch-wysiwyg-files/production%2FPage%2F74971%2F1749784392525-IMG_3006.jpeg" alt="Founders Nathan and Codi Fisher with their family at The Hit Factory">
+      <div>
+        <h2>Meet the founders</h2>
+        <p>Nathan and Codi Fisher have lived in Lexington their whole lives. As a family they're deeply involved in youth sports, and The Hit Factory has been their dream for a long time.</p>
+        <p>Nathan has coached youth baseball at many levels, including the North Central Titans travel program and the Lexington High School Baseball staff. He coaches with an emphasis on fundamentals, sportsmanship, and confidence built through discipline and hard work.</p>
+        <p>Codi is a big supporter of youth development on and off the field, whether she's cheering from the stands or backing local dancers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section on-paper">
+    <div class="wrap">
+      <h2>Our mission</h2>
+      <p class="lede">Help young athletes develop their skills, build confidence and reach their full potential on and off the field.</p>
+      <div class="perks">
+        <div><h3>A top-tier facility</h3><p>We renovated our building so every athlete trains in a great environment with cages, mounds and professional-grade equipment.</p></div>
+        <div><h3>Expert coaching</h3><p>Experienced instructors who focus on mechanics, strength, agility and mental preparation.</p></div>
+        <div><h3>Programs for every athlete</h3><p>Private and group lessons, year-round rentals for teams and individuals, plus skill-focused clinics and camps.</p></div>
+        <div><h3>A real community</h3><p>Our goal isn't only strong players. It's a community built on passion, respect and opportunity.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap band-inner">
+      <h2>Come train with us</h2>
+      <a class="btn btn-white" href="contact.html">Get in touch</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp" alt="The Hit Factory logo">
+        <h2>The Hit Factory</h2>
+        <p>Indoor baseball and softball training in Lexington, Ohio.<br>Where champions are made.</p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>124 Plymouth St, Unit A<br>Lexington, OH 44904</p>
+        <p><a href="tel:+14195661199">(419) 566-1199</a> (call or text)<br><a href="mailto:thehitfactorylex@gmail.com">thehitfactorylex@gmail.com</a></p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="rentals.html">Cage rentals</a></li><li><a href="lessons.html">Lessons</a></li><li><a href="elite.html">Hit Factory Elite</a></li><li><a href="parties.html">Parties</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+          <li><a href="https://www.facebook.com/p/the-hit-factory-61555327097464/">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="credit">&copy; <span id="yr">2026</span> The Hit Factory. Website by <a href="https://github.com/LCComputerBuildandRepair">LC Computer Build and Repair</a>, Mansfield, Ohio.</p>
+  </div>
+</footer>
+
+<script>
+  const t = document.querySelector('.menu-toggle'), m = document.getElementById('menu');
+  t.addEventListener('click', () => { const o = m.classList.toggle('open'); t.setAttribute('aria-expanded', o); t.textContent = o ? 'Close' : 'Menu'; });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parties & Events | The Hit Factory, Lexington OH</title>
+<meta name="description" content="Birthday parties, graduation parties and team events at The Hit Factory in Lexington, Ohio.">
+<link rel="icon" href="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:ital,wght@1,800&family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="bar-inner">
+    <a class="brand" href="index.html" aria-label="The Hit Factory home">
+      <img src="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp" alt="">
+      <span>The Hit Factory</span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="rentals.html">Cage rentals</a>
+      <a href="lessons.html">Lessons</a>
+      <a href="elite.html">Hit Factory Elite</a>
+      <a href="parties.html" aria-current="page">Parties</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://book.runswiftapp.com/facilities/the-hit-factory">Book now</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Parties &amp; events</h1>
+      <p>More than a training ground. Celebrate here.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap split">
+      <div>
+        <h2>Room to celebrate your way</h2>
+        <p>The Hit Factory isn't just for baseball and softball. We host birthday parties, graduation celebrations, team bonding nights and themed get-togethers.</p>
+        <p>Whether you're sliding into home or sliding into the ball pit, there's indoor fun and open space for kids and adults alike.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:thehitfactorylex@gmail.com?subject=Party%20booking">Email for pricing</a>
+          <a class="btn btn-line" href="https://www.facebook.com/p/the-hit-factory-61555327097464/">Message on Facebook</a>
+        </div>
+        <p class="note" style="margin-top:1rem">Message or email us for pricing and open dates.</p>
+      </div>
+      <img src="https://s3.amazonaws.com/jerseywatch-wysiwyg-files/production%2FPage%2F74979%2F1749785113917-IMG_4456.png" alt="Party photos from The Hit Factory" style="aspect-ratio:auto;object-fit:contain;background:var(--paper)">
+    </div>
+  </section>
+
+  <section class="section on-purple">
+    <div class="wrap">
+      <h2>Great for</h2>
+      <ul class="focus" style="margin-top:1.5rem">
+        <li style="border-color:#fff">Birthday parties</li>
+        <li style="border-color:#fff">Graduation parties</li>
+        <li style="border-color:#fff">Team bonding</li>
+        <li style="border-color:#fff">Themed get-togethers</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap band-inner">
+      <h2>Pick a date for your party</h2>
+      <a class="btn btn-white" href="mailto:thehitfactorylex@gmail.com?subject=Party%20booking">Email us</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img src="https://res.cloudinary.com/jersey-watch/image/upload/c_fit,w_200,h_200/f_webp/q_100/v1751396017/phjgnalcbwkhui0zqkgr.webp" alt="The Hit Factory logo">
+        <h2>The Hit Factory</h2>
+        <p>Indoor baseball and softball training in Lexington, Ohio.<br>Where champions are made.</p>
+      </div>
+      <div>
+        <h2>Visit</h2>
+        <p>124 Plymouth St, Unit A<br>Lexington, OH 44904</p>
+        <p><a href="tel:+14195661199">(419) 566-1199</a> (call or text)<br><a href="mailto:thehitfactorylex@gmail.com">thehitfactorylex@gmail.com</a></p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li><li><a href="rentals.html">Cage rentals</a></li><li><a href="lessons.html">Lessons</a></li><li><a href="elite.html">Hit Factory Elite</a></li><li><a href="parties.html">Parties</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li>
+          <li><a href="https://www.facebook.com/p/the-hit-factory-61555327097464/">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="credit">&copy; <span id="yr">2026</span> The Hit Factory. Website by <a href="https://github.com/LCComputerBuildandRepair">LC Computer Build and Repair</a>, Mansfield, Ohio.</p>
+  </div>
+</footer>
+
+<script>
+  const t = document.querySelector('.menu-toggle'), m = document.getElementById('menu');
+  t.addEventListener('click', () => { const o = m.classList.toggle('open'); t.setAttribute('aria-expanded', o); t.textContent = o ? 'Close' : 'Menu'; });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
